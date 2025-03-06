@@ -1,0 +1,509 @@
+/* .navbar{
+        display:flex;
+        justify-content: center;
+        
+        
+} */
+
+body{
+    background-color:#FFF7F3;
+    
+}
+
+.grid{
+    height: 93.49px;
+    width:1440px;
+
+    display:grid;
+    grid-template-columns: 602px 68px 56px 110px 56px 125px 56px 92px 247px 169px 271px;
+    grid-template-rows: 40px 29px 24.59px;
+
+    font-family: "Instrument Sans", sans-serif;
+    font-weight: 24;
+    font-style: normal;
+
+}
+
+.home{
+    grid-area: 2/2/3/3;
+    color:#3D2C2E;
+}
+
+.about{
+    color:#3D2C2E;
+    grid-area:2/4/3/5;
+}
+
+.experience{
+    color:#3D2C2E;
+    grid-area: 2/6/3/7;
+}
+
+.project{
+    color:#3D2C2E;
+    grid-area: 2/8/3/9;
+}
+
+.contactme{
+    color:white;
+    grid-area: 2/10/3/11;
+    background-color: #D97EBA;
+    border-radius: 20px;
+    border-color:#D97EBA;
+}
+
+.grid-2{
+    height:749.82px;
+    width:1440px;
+    text-align:center;
+
+    position:relative;
+    display:flex;
+    justify-content:center;
+    margin-left: 240px;
+    margin-right:240px;
+    
+    
+}
+
+.name{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height:121.5px;
+    width:845px;
+    color:#3D2C2E;
+    font-family: "Playfair Display", serif;
+    font-size: 96px;
+    font-weight: 500;
+    line-height: 14%;
+    font-style: normal;
+  
+    
+
+}
+
+.desc{
+    position:absolute;
+    top: 110%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height:41.97px;
+    width: 437px;
+    font-family: "Instrument Sans", sans-serif;
+    font-size: 36px;
+    font-weight: 24;
+    font-style: normal;
+    color:#3D2C2E;
+}
+
+.grid-3{
+    height:749.82px;
+    width:1440px;
+    text-align:center;
+
+    position:relative;
+    
+    margin-left: 240px;
+    margin-right:240px;
+    /* display:flex;
+    /* flex-wrap: nowrap; */
+    /* justify-content:center; */ 
+    
+}
+
+.vani{
+    height: 437px;
+    width: 456px;
+    border-radius: 50%;
+
+    padding-top:77px;
+    padding-left: 0px;
+    
+    
+
+}
+
+.aboutmee{
+    height: 63px;
+    width: 210px;
+    margin-top: 50px;
+    margin-left: 630px;
+
+    color:#3D2C2E;
+    font-family: "Playfair Display", serif;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 14%;
+    font-style: normal;
+  
+
+}
+
+.me{
+    
+    height: 73.57;
+    width: 759px;
+    margin-top: 10px;
+    margin-left: 350px;
+    font-family: "Instrument Sans", sans-serif;
+    font-size: 24px;
+    font-weight: 24;
+    font-style: normal;
+    color:#3D2C2E;
+}
+
+.line{
+    height:23px;
+    width:1440px;
+    margin-top: 100px;
+}
+
+/* .grid-4{
+    height:776px;
+    width:1440px;
+    text-align:center;
+    /* display: flex;
+    flex-wrap:wrap; 
+
+    position:relative;
+    
+    margin-left: 240px;
+    margin-right:240px;
+}
+
+.exp{
+    height:67.39px;
+    width: 333px;
+    margin-top: 200px;
+    margin-left: 550px;
+    font-family: "Playfair Display", serif;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 14%;
+    font-style: normal;
+    color:#3D2C2E;
+
+}
+
+.logo1{
+    border-radius:50%;
+    height: 244px;
+    width:244px;
+    margin-top: 30px;
+    margin-right: 800px;
+
+}
+
+.title1{
+    height:46.33px;
+    width:243px;
+    margin-left:202px;
+    margin-top: 30px;
+    font-family: "Instrument Sans", sans-serif;
+    font-size: 24px;
+    font-weight: 36;
+    font-style: normal;
+    color:#3D2C2E;
+}
+
+.logo2{
+    border-radius:50%;
+    height: 244px;
+    width:244px;
+    /* margin-bottom: 400px; 
+    margin-left: 531px;
+    /* margin-top: 30px; 
+
+}
+
+.title2{
+    height:46.33px;
+    width:243px;
+    margin-left:202px;
+    margin-top: 30px;
+    font-family: "Instrument Sans", sans-serif;
+    font-size: 24px;
+    font-weight: 36;
+    font-style: normal;
+    color:#3D2C2E;
+} */
+
+.grid-4{
+    height:776px;
+    width:1440px;
+    margin-left: 240px;
+    margin-right:240px;
+    margin-top: 200px;
+
+    display:grid;
+    grid-template-columns: 302px 244px 15px 216px 100px 259px 319px;
+    grid-template-rows: 37.91px 67.39px 68.74px 200.22px 20px 46.33px 88.12px;
+}
+
+.exp{
+    /* height:67.39px;
+    width: 333px;
+    margin-top: 200px;
+    margin-left: 550px; */
+    grid-area: 2/4/3/5;
+    font-family: "Playfair Display", serif;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 14%;
+    font-style: normal;
+    color:#3D2C2E;
+
+}
+
+.logo1{
+    border-radius:50%;
+    /* height: 244px;
+    width:244px;
+    margin-top: 30px;
+    margin-right: 800px; */
+    grid-area: 4/2/5/3;
+}
+
+.title1{
+    /* height:46.33px;
+    width:243px;
+    margin-left:202px;
+    margin-top: 30px; */
+    grid-area: 6/2/7/3;
+    font-family: "Instrument Sans", sans-serif;
+    font-size: 24px;
+    font-weight: 36;
+    font-style: normal;
+    color:#3D2C2E;
+}
+
+.logo2{
+    border-radius:50%;
+    height: 200px;
+    width:200px;
+    grid-area: 4/6/5/7;
+
+}
+
+.title2{
+    /* height:46.33px;
+    width:243px;
+    margin-left:202px;
+    margin-top: 30px; */
+    grid-area: 6/6/7/7;
+    text-align: center;
+    font-family: "Instrument Sans", sans-serif;
+    font-size: 24px;
+    font-weight: 36;
+    font-style: normal;
+    color:#3D2C2E;
+}
+
+.grid-5{
+    height:1000px;
+    width:1440px;
+    margin-left: 240px;
+    margin-right:240px;
+    margin-top: 10px;
+
+    display:grid;
+    grid-template-columns: 159px 166px 122px 138px 248px 509px 98px;
+    grid-template-rows: 69px 64px 88px 39px 10px 95px 71px 39px 10px 95px 71px 39px 10px 95px 71px;
+    background-color: #E6B2BA;
+    background-blend-mode: lighten;
+}
+
+.projectss{
+    grid-area: 2/5/3/6;
+    font-family: "Playfair Display", serif;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 14%;
+    font-style: normal;
+    color:#3D2C2E;
+
+}
+
+.project1{
+    border-radius:50%;
+    height: 150px;
+    width:150px;
+    grid-area: 4/2/7/3;
+}
+
+.name1{
+    grid-area: 4/4/5/7;
+    /* text-align: center; */
+    font-family: "Instrument Sans", sans-serif;
+    font-size: 32px;
+    font-weight: 200;
+    font-style: normal;
+    color:#3D2C2E;
+}
+
+.desc1{
+    grid-area: 6/4/7/7;
+    font-family: "Playfair Display", serif;
+    font-size: 24px;
+    font-weight: 30;
+    
+    font-style: normal;
+    color:#3D2C2E;
+}
+
+.project2{
+    border-radius:50%;
+    height: 150px;
+    width:150px;
+    grid-area: 8/2/11/3;
+}
+
+.name2{
+    grid-area: 8/4/9/7;
+    /* text-align: center; */
+    font-family: "Instrument Sans", sans-serif;
+    font-size: 32px;
+    font-weight: 200;
+    font-style: normal;
+    color:#3D2C2E;
+}
+
+.desc2{
+    grid-area: 10/4/11/7;
+    font-family: "Playfair Display", serif;
+    font-size: 24px;
+    font-weight: 30;
+    
+    font-style: normal;
+    color:#3D2C2E;
+}
+
+.project3{
+    border-radius:50%;
+    height: 150px;
+    width:150px;
+    grid-area: 12/2/15/3;
+}
+
+.name3{
+    grid-area: 12/4/13/7;
+    /* text-align: center; */
+    font-family: "Instrument Sans", sans-serif;
+    font-size: 32px;
+    font-weight: 200;
+    font-style: normal;
+    color:#3D2C2E;
+}
+
+.desc3{
+    grid-area: 14/4/15/7;
+    font-family: "Playfair Display", serif;
+    font-size: 24px;
+    font-weight: 30;
+    
+    font-style: normal;
+    color:#3D2C2E;
+}
+
+.grid-6{
+    height:517px;
+    width:1440px;
+    margin-left: 240px;
+    margin-right:240px;
+    /* margin-top: 200px; */
+
+    display:grid;
+    grid-template-columns: 159px 325px 68px 336px 68px 325px 159px;
+    grid-template-rows: 90px 57px 79px 58px 79px 64px 90px;
+    background-color: #FFF7F3;
+    background-blend-mode: lighten;
+}
+
+.get{
+    grid-area: 2/3/3/6;
+    font-family: "Playfair Display", serif;
+    font-size: 64px;
+    font-weight: 6000;
+    line-height: 25%;
+    font-style: normal;
+    color:#D97EBA;
+}
+
+.text{
+    grid-area: 4/2/5/7;
+    text-align: center;
+    font-family: "Instrument Sans", sans-serif;
+    font-size: 24px;
+    font-weight: 10;
+    font-style: normal;
+    color:#3D2C2E;
+}
+
+.contact{
+    grid-area: 6/4/7/5;
+    font-family: "Playfair Display", serif;
+    font-size: 24px;
+    font-weight: 100;
+    line-height: 25%;
+    font-style: normal;
+    color:white;
+    background-color: #D97EBA;
+    border-radius: 20px;
+    border-color:#D97EBA;
+}
+
+.grid-7{
+    height:233px;
+    width:1440px;
+    margin-left: 240px;
+    margin-right:240px;
+    /* margin-top: 200px; */
+
+    display:grid;
+    grid-template-columns: 414px 108px 119.5px 176px 119.5px 89px 414px;
+    grid-template-rows: 56.3px 32px 56.3px 32px 80px;
+    background-color: #C599B6;
+    background-blend-mode: lighten;
+}
+
+.git{
+    grid-area: 2/2/3/3;
+    font-family: "Playfair Display", serif;
+    font-size: 24px;
+    font-weight: 100;
+    line-height: 25%;
+    font-style: normal;
+    color:#AF0074;
+}
+
+.linked{
+    grid-area: 2/4/3/5;
+    font-family: "Playfair Display", serif;
+    font-size: 24px;
+    font-weight: 100;
+    line-height: 25%;
+    font-style: normal;
+    color:#AF0074;
+}
+
+.resume{
+    grid-area: 2/6/3/7;
+    font-family: "Playfair Display", serif;
+    font-size: 24px;
+    font-weight: 100;
+    line-height: 25%;
+    font-style: normal;
+    color:#AF0074;
+}
+
+.tripathi{
+    grid-area: 4/4/5/5;
+    font-family: "Playfair Display", serif;
+    font-size: 24px;
+    font-weight: 100;
+    line-height: 25%;
+    font-style: normal;
+    color:white;
+}
